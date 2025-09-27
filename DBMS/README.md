@@ -18,7 +18,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   
   - [DBMS Languages](Introduction/4.%20Database%20Languages.md)
 
+  - [Data Abstraction and Independence](Introduction/5.%20Data%20Abstraction.md)
 
+  - [Important Terms](Introduction/6.%20Important%20Terms.md)
 ---
 
 ## How to Use
