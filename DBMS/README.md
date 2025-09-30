@@ -21,6 +21,14 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Data Abstraction and Independence](Introduction/5.%20Data%20Abstraction.md)
 
   - [Important Terms](Introduction/6.%20Important%20Terms.md)
+
+- [2. Relational Database Management System (RDBMS)](RDBMS/)
+
+  - [What is RDBMS?](RDBMS/1.%20What%20is%20RDBMS.md)
+
+  - [Introduction to ER Model](RDBMS/2.%20Introduction%20to%20ER%20Model.md)
+
+  - [How to draw an ER Diagram](RDBMS/3.%20How%20to%20draw%20an%20ER%20Diagram.md)
 ---
 
 ## How to Use
