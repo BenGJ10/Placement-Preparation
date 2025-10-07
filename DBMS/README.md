@@ -38,6 +38,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Introduction to SQL](SQL/1.%20Introduction%20to%20SQL.md)
 
+  - [Complete SQL Basics CheatSheet](SQL/SQL%20Basics%20CheatSheet.pdf)
 ---
 
 ## How to Use
