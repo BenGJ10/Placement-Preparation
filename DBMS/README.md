@@ -43,6 +43,10 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Basic SQL Commands](SQL/3.%20Basic%20SQL%20Commands.md)
 
   - [Complete SQL Basics CheatSheet](SQL/SQL%20Basics%20CheatSheet.pdf)
+
+  - [Aggregate Functions](SQL/5.%20Aggregate%20Functions.md)
+
+  - [Joins in SQL](SQL/6.%20SQL%20Joins.md)
   
 ---
 
