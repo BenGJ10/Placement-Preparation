@@ -48,6 +48,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Joins in SQL](SQL/6.%20SQL%20Joins.md)
   
+  - [Views in SQL](SQL/7.%20SQL%20Views.md)
+  
 ---
 
 ## How to Use
