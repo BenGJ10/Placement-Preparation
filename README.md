@@ -10,6 +10,8 @@ This repository is intended to be a living document. As I continue to learn and 
 
 ## Current Structure
 
+- **[Data Structures and Algorithms (DSA)](https://github.com/BenGJ10/Leetcode-Solutions-Tracker)**: A separate repository focused on coding problems, solutions, and patterns across various data structures and algorithms.
+
 - **[Computer Networks (CN)](Computer%20Networks/)**: Comprehensive notes and indepth explanations of networking concepts, protocols, and commonly asked questions.
 
 - **[Database Management Systems (DBMS)](Database%20Management%20Systems/)**: Detailed notes on database concepts, SQL queries, normalization, transactions, and interview questions.
@@ -18,6 +20,7 @@ This repository is intended to be a living document. As I continue to learn and 
 
 - **[Object Oriented Programming (OOP)](OOPs/)**: Concepts of OOP, design patterns, principles, and commonly asked interview questions.
 
+- **[System Design Principles](https://github.com/BenGJ10/System-Design-Principles)**: A separate repository dedicated to system design concepts, architecture patterns, and real-world design problems.
 
 ---
 
