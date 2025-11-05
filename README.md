@@ -10,19 +10,14 @@ This repository is intended to be a living document. As I continue to learn and 
 
 ## Current Structure
 
-- **Data Structures and Algorithms**: Includes pattern-based problems, solution walkthroughs, and core algorithm concepts.
+- **[Computer Networks (CN)](Computer%20Networks/)**: Comprehensive notes and indepth explanations of networking concepts, protocols, and commonly asked questions.
 
-- **OOPs**: Covers principles of Object-Oriented Programming, design patterns, and practical implementation examples.
+- **[Database Management Systems (DBMS)](Database%20Management%20Systems/)**: Detailed notes on database concepts, SQL queries, normalization, transactions, and interview questions.
 
-- **DBMS**: Covers relational models, indexing, normalization, SQL queries, transactions, concurrency, and more.
+- **[Operating Systems (OS)](Operating%20Systems/)**: Notes covering process management, memory management, file systems, and other OS concepts along with interview questions.
 
-- **Operating Systems**: Includes process scheduling, memory management, threads, synchronization, and virtual memory, and more.
+- **[Object Oriented Programming (OOP)](OOPs/)**: Concepts of OOP, design patterns, principles, and commonly asked interview questions.
 
-- **System Design**: Contains foundational concepts of low-level and high-level design, system architecture, and design problems.
-
-- **Aptitude and Reasoning**: Common numerical, logical, and verbal aptitude problems often seen in preliminary rounds.
-
-- **HR and Behavioral Questions**: STAR-format answers, resume-based questions, and commonly asked behavioral rounds.
 
 ---
 
