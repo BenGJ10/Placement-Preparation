@@ -50,6 +50,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   
   - [Views in SQL](SQL/7.%20SQL%20Views.md)
   
+
+- **[4. Solve SQL Problems](SQL/README.md)**
+
 ---
 
 ## How to Use
