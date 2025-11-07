@@ -15,6 +15,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Important Terms in Computer Networks](Basics/2.%20Important%20Terms.md)
 
   - [Types of Computer Networks](Basics/3.%20Types%20of%20Networks.md)
+
+  - [Network Topologies](Basics/4.%20Network%20Topologies.md)
 ---
 
 ## How to Use
