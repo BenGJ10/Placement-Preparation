@@ -17,6 +17,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Types of Computer Networks](Basics/3.%20Types%20of%20Networks.md)
 
   - [Network Topologies](Basics/4.%20Network%20Topologies.md)
+
+  - [Web vs Internet](Basics/5.%20Web%20vs%20Internet.md)
 ---
 
 ## How to Use
