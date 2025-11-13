@@ -21,6 +21,14 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Web vs Internet](Basics/5.%20Web%20vs%20Internet.md)
 
   - [Networking Devices](Basics/6.%20Networking%20Devices.md)
+
+- [2. OSI Model](OSI%20Models/)
+
+  - [OSI Model](OSI%20Models/1.%20OSI%20Model.md)
+
+  - [TCP/IP Model](OSI%20Models/2.%20TCP-IP%20Model.md)
+
+  - [Comparison of OSI and TCP/IP Models](OSI%20Models/3.%20Comparison%20of%20OSI%20and%20TCP-IP%20Models.md)
 ---
 
 ## How to Use
