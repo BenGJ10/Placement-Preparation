@@ -28,7 +28,6 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [TCP/IP Model](OSI%20Models/2.%20TCP-IP%20Model.md)
 
-  - [Comparison of OSI and TCP/IP Models](OSI%20Models/3.%20Comparison%20of%20OSI%20and%20TCP-IP%20Models.md)
 ---
 
 ## How to Use
