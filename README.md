@@ -14,7 +14,7 @@ This repository is intended to be a living document. As I continue to learn and 
 
 - **[Computer Networks (CN)](Computer%20Networks/)**: Comprehensive notes and indepth explanations of networking concepts, protocols, and commonly asked questions.
 
-- **[Database Management Systems (DBMS)](Database%20Management%20Systems/)**: Detailed notes on database concepts, SQL queries, normalization, transactions, and interview questions.
+- **[Database Management Systems (DBMS)](DBMS/)**: Detailed notes on database concepts, SQL queries, normalization, transactions, and interview questions.
 
 - **[Operating Systems (OS)](Operating%20Systems/)**: Notes covering process management, memory management, file systems, and other OS concepts along with interview questions.
 
