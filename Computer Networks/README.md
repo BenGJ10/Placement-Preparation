@@ -19,6 +19,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Network Topologies](Basics/4.%20Network%20Topologies.md)
 
   - [Web vs Internet](Basics/5.%20Web%20vs%20Internet.md)
+
+  - [Networking Devices](Basics/6.%20Networking%20Devices.md)
 ---
 
 ## How to Use
