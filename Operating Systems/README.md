@@ -8,14 +8,17 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ## Contents
 
-- [1. Introduction to Operating Systems](Introduction/)
+- ### [1. Introduction to Operating Systems](Introduction/)
 
-  - [What is Operating Systems?](Introduction/1.%20What%20is%20Operating%20Systems.md)
+  - [What is **Operating Systems**?](Introduction/1.%20What%20is%20Operating%20Systems.md)
 
-  - [Types of Operating Systems](Introduction/2.%20Types%20of%20Operating%20Systems.md)
+  - [**Types** of Operating Systems](Introduction/2.%20Types%20of%20Operating%20Systems.md)
 
-  - [RAM vs ROM](Introduction/3.%20RAM%20vs%20ROM.md)
+  - [**RAM** vs **ROM**](Introduction/3.%20RAM%20vs%20ROM.md)
 
+  - [**System Calls** and **APIs**](Introduction/4.%20System%20Calls%20and%20APIs.md)
+
+  - [**Virtualization** vs **Containerization**](Introduction/5.%20Virtualization%20vs%20Containerization.md)
 
 ---
 
