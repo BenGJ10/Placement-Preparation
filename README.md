@@ -1,6 +1,8 @@
 # Complete Placement Preparation Repository
 
-This repository is a comprehensive guide to ace technical interviews for `SDE`, `Machine Learning`, `Data Science`, and other computer science roles. It includes my personal notes, solved questions, and curated resources for every core subject asked in placements.
+## ❗️❗️ Go to each sub-directories for detailed notes.md files ❗️❗️
+
+This repository is a comprehensive guide to ace technical interviews for various computer science roles. It includes my personal notes, solved questions, and curated resources for every core subject asked in placements.
 
 Each directory in this repository contains detailed notes and commonly asked interview questions from that particular subject area. Alongside notes, I am also maintaining solved problem statements (where applicable), brief explanations of core concepts, dry runs of important DSA problems, and links to further resources. Many of the questions are compiled from previous company-specific interviews and popular coding platforms.
 
