@@ -20,6 +20,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Virtualization** vs **Containerization**](Introduction/5.%20Virtualization%20vs%20Containerization.md)
 
+  - [**BIOS** vs **UEFI**](Introduction/6.%20BIOS%20vs%20UEFI.md)
+
+- ### [2. Process Management](Process%20Management/)
 ---
 
 ## How to Use
