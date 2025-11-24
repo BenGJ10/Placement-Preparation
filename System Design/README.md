@@ -1,4 +1,7 @@
-# System Design Roadmap (HLD Preparation)
+# System Design Roadmap
+
+### ❗️Go to this repository for detailed explanations and resources: [System Design Principles](https://github.com/BenGJ10/System-Design-Principles)
+
 
 This roadmap covers everything you need to study for **System Design Interviews (High-Level Design)**, organized in a structured order.
 
