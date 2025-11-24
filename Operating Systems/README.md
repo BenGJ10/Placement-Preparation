@@ -22,6 +22,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**BIOS** vs **UEFI**](Introduction/6.%20BIOS%20vs%20UEFI.md)
 
+  - [Important **terms** in Operating Systems](Introduction/7.%20Important%20terms%20in%20OS.md)
+
 - ### [2. Process Management](Process%20Management/)
 ---
 
