@@ -24,6 +24,10 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Important **terms** in Operating Systems](Introduction/7.%20Important%20terms%20in%20OS.md)
 
+  - [**Monolithic** vs **Microkernel** Architecture](Introduction/8.%20Monolithic%20Kernal%20vs%20MicroKernal.md)
+
+  - [What happens when you **turn on your computer**?](Introduction/9.%20Complete%20Booting%20Process.md)
+
 - ### [2. Process Management](Process%20Management/)
 ---
 
