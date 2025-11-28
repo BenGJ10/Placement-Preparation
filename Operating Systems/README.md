@@ -30,9 +30,12 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - ### [2. Process Management](Process%20Management/)
 
-  - [Processes in Operating Systems](Process%20Management/1.%20Processes%20in%20OS.md)
+  - [**Processes** in Operating Systems](Process%20Management/1.%20Processes%20in%20OS.md)
 
   - [Process vs Program vs Threads](Process%20Management/2.%20Process%20vs%20Program%20vs%20Threads.md)
+
+  - [**PCB** - Process Control Block](Process%20Management/3.%20Process%20Control%20Block(PCB).md) 
+  
 ---
 
 ## How to Use
