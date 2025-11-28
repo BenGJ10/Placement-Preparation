@@ -29,6 +29,10 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [What happens when you **turn on your computer**?](Introduction/9.%20Complete%20Booting%20Process.md)
 
 - ### [2. Process Management](Process%20Management/)
+
+  - [Processes in Operating Systems](Process%20Management/1.%20Processes%20in%20OS.md)
+
+  - [Process vs Program vs Threads](Process%20Management/2.%20Process%20vs%20Program%20vs%20Threads.md)
 ---
 
 ## How to Use
