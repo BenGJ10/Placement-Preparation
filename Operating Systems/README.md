@@ -38,6 +38,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Context Switching**](Process%20Management/4.%20Context%20Switching.md)
   
+  - [**CPU Bound** vs **I/O Bound** Processes](Process%20Management/5.%20CPU%20Bound%20vs%20IO%20Bound%20process.md)
+
+
 ---
 
 ## How to Use
