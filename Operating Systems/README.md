@@ -40,6 +40,11 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   
   - [**CPU Bound** vs **I/O Bound** Processes](Process%20Management/5.%20CPU%20Bound%20vs%20IO%20Bound%20process.md)
 
+  - [**IPC** and **Pipes**](Process%20Management/6.%20IPC%20and%20Pipes.md)
+
+  - [**Zombie** process vs **Orphan** process](Process%20Management/7.%20Zombie%20vs%20Orphan%20process.md)
+
+  - [Important **terms** in Process Management](Process%20Management/8.%20Important%20terms%20related%20to%20Process.md)
 
 ---
 
