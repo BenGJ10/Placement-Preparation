@@ -57,8 +57,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Features** of Good Relational Database Design](RDBMS%20Design/1.%20Features%20of%20Good%20Design.md)
 
-  
-
+  - [**Functional Dependencies** and **Types**](RDBMS%20Design/2.%20Functional%20Dependencies%20and%20Types.md)
 
 ---
 
