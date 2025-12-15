@@ -6,13 +6,19 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ## Contents
 
-### Graphs 
+### [Introduction to Graphs](Graphs/)
 
 - [**Breadth First Search (BFS)**](Graphs/Breadth%20First%20Search.md)
 
 - [**Depth First Search (DFS)**](Graphs/Depth%20First%20Search.md)
 
 - [**Topological Sort**](Graphs/Topological%20Sort.md)
+
+- [**Shortest Path Algorithms**](Graphs/Shortest%20Path%20Algos.md)
+
+- [**Dijkstra** and **Bellman-Ford**](Graphs/Dijkstra%20and%20Bellman%20Ford's%20Algos.md)
+
+---
 
 ## How to Use
 
