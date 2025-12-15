@@ -8,7 +8,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ## Contents
 
-- ### [1. Introduction to Operating Systems](Introduction/)
+### [1. Introduction to Operating Systems](Introduction/)
 
   - [What is **Operating Systems**?](Introduction/1.%20What%20is%20Operating%20Systems.md)
 
@@ -28,7 +28,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [What happens when you **turn on your computer**?](Introduction/9.%20Complete%20Booting%20Process.md)
 
-- ### [2. Process Management](Process%20Management/)
+### [2. Process Management](Process%20Management/)
 
   - [**Processes** in Operating Systems](Process%20Management/1.%20Processes%20in%20OS.md)
 

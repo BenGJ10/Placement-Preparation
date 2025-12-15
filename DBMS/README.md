@@ -8,7 +8,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ## Contents
 
-- ### [1. Introduction to DBMS](Introduction/)
+### [1. Introduction to DBMS](Introduction/)
   
   - [What is **DBMS**?](Introduction/1.%20What%20is%20DBMS.md)
   
@@ -22,7 +22,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Important Terms](Introduction/6.%20Important%20Terms.md)
 
-- ### [2. Relational Database Management System (RDBMS)](RDBMS/)
+### [2. Relational Database Management System (RDBMS)](RDBMS/)
 
   - [What is **RDBMS?**](RDBMS/1.%20What%20is%20RDBMS.md)
 
@@ -34,7 +34,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Keys** in Relational Model](RDBMS/5.%20Keys%20in%20Relational%20Model.md)
 
-- ### [3. Complete SQL and MySQL Tutorial](SQL/)
+### [3. Complete SQL and MySQL Tutorial](SQL/)
 
   - [Introduction to **SQL**](SQL/1.%20Introduction%20to%20SQL.md)
 
@@ -51,9 +51,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Views** in SQL](SQL/7.%20SQL%20Views.md)
   
 
-- ### [4. Solve SQL Problems](SQL/README.md)
+### [4. Solve SQL Problems](SQL/README.md)
 
-- ### [5. RDBMS Design](RDBMS%20Design/)
+### [5. RDBMS Design](RDBMS%20Design/)
 
   - [**Features** of Good Relational Database Design](RDBMS%20Design/1.%20Features%20of%20Good%20Design.md)
 

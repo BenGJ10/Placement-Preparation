@@ -8,7 +8,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ## Contents
 
-- **[1. Introduction to Computer Networks](Introduction/)**
+### [1. Introduction to Computer Networks](Introduction/)
 
   - [What is Computer Networking?](Basics/1.%20What%20is%20Computer%20Networking.md)
   
@@ -22,7 +22,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Networking Devices](Basics/6.%20Networking%20Devices.md)
 
-- [2. OSI Model](OSI%20Models/)
+### [2. OSI Model](OSI%20Models/)
 
   - [OSI Model](OSI%20Models/1.%20OSI%20Model.md)
 
