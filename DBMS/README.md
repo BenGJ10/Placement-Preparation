@@ -53,7 +53,20 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ### [4. Solve SQL Problems](SQL/README.md)
 
-### [5. RDBMS Design](RDBMS%20Design/)
+### [5. ACID Properties and Transactions](ACID%20Properties/)
+
+  - [What is a **Transaction**?](ACID%20Properties/1.%20What%20is%20a%20transaction.md)
+
+  - [**Atomicity** Property](ACID%20Properties/2.%20Atomicity.md)
+
+  - [**Consistency** Property](ACID%20Properties/3.%20Consistency.md)
+
+  - [**Isolation** Property](ACID%20Properties/4.%20Isolation.md)
+
+  - [**Durability** Property](ACID%20Properties/5.%20Durability.md)
+
+
+### [6. RDBMS Design](RDBMS%20Design/)
 
   - [**Features** of Good Relational Database Design](RDBMS%20Design/1.%20Features%20of%20Good%20Design.md)
 
