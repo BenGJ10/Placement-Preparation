@@ -65,6 +65,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Durability** Property](ACID%20Properties/5.%20Durability.md)
 
+  - [Complete Overview of **ACID Properties**](ACID%20Properties/6.%20Complete%20Overview.md)
+
 
 ### [6. RDBMS Design](RDBMS%20Design/)
 
