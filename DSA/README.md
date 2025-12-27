@@ -18,8 +18,13 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - [**Dijkstra** and **Bellman-Ford**](Graphs/Dijkstra%20and%20Bellman%20Ford's%20Algos.md)
 
----
 
+### [Dynamic Programming](Dynamic%20Programming/)
+
+- [**Introduction to Dynamic Programming**](Dynamic%20Programming/Introduction%20to%20DP.md)
+
+- [**Recursion to Optimized Dynamic Programming**](Dynamic%20Programming/Recursion%20to%20Optimized%20DP.md)
+---
 ## How to Use
 
 - Browse the markdown files for structured notes and explanations.
