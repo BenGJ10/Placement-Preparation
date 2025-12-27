@@ -24,7 +24,11 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [**Introduction to Dynamic Programming**](Dynamic%20Programming/Introduction%20to%20DP.md)
 
 - [**Recursion to Optimized Dynamic Programming**](Dynamic%20Programming/Recursion%20to%20Optimized%20DP.md)
+
+- [**Overview of 1D DP**](Dynamic%20Programming/Overview%20of%201D%20DP.md)
+
 ---
+
 ## How to Use
 
 - Browse the markdown files for structured notes and explanations.
