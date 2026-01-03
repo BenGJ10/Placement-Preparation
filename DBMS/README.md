@@ -61,6 +61,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Decomposition** in RDBMS](RDBMS%20Design/3.%20Introduction%20to%20Decomposition.md)
 
+  - [**Understand Normalisation**](RDBMS%20Design/4.%20Understand%20Normalisation.md)
+
 ### [5. ACID Properties and Transactions](ACID%20Properties/)
 
   - [What is a **Transaction**?](ACID%20Properties/1.%20What%20is%20a%20transaction.md)
