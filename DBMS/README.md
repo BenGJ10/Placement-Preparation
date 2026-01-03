@@ -53,6 +53,14 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ### [4. Solve SQL Problems](SQL/README.md)
 
+### [5. RDBMS Design](RDBMS%20Design/)
+
+  - [**Features** of Good Relational Database Design](RDBMS%20Design/1.%20Features%20of%20Good%20Design.md)
+
+  - [**Functional Dependencies** and **Types**](RDBMS%20Design/2.%20Functional%20Dependencies%20and%20Types.md)
+
+  - [**Decomposition** in RDBMS](RDBMS%20Design/3.%20Introduction%20to%20Decomposition.md)
+
 ### [5. ACID Properties and Transactions](ACID%20Properties/)
 
   - [What is a **Transaction**?](ACID%20Properties/1.%20What%20is%20a%20transaction.md)
@@ -67,12 +75,6 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Complete Overview of **ACID Properties**](ACID%20Properties/6.%20Complete%20Overview.md)
 
-
-### [6. RDBMS Design](RDBMS%20Design/)
-
-  - [**Features** of Good Relational Database Design](RDBMS%20Design/1.%20Features%20of%20Good%20Design.md)
-
-  - [**Functional Dependencies** and **Types**](RDBMS%20Design/2.%20Functional%20Dependencies%20and%20Types.md)
 
 ---
 
@@ -93,3 +95,5 @@ The content in this repository is curated from multiple reputable sources, inclu
 - [GeeksforGeeks](https://www.geeksforgeeks.org/dbms/dbms/)
 
 - [TutorialsPoint](https://www.tutorialspoint.com/dbms/index.htm)
+
+---
