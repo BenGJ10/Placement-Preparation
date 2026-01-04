@@ -63,6 +63,14 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Understand Normalisation**](RDBMS%20Design/4.%20Understand%20Normalisation.md)
 
+  - [**First Normal Form (1NF)**](RDBMS%20Design/5.%20First%20Normal%20Form%20(1NF).md)
+
+  - [**Second Normal Form (2NF)**](RDBMS%20Design/6.%20Second%20Normal%20Form%20(2NF).md)
+
+  - [**Third Normal Form (3NF)**](RDBMS%20Design/7.%20Third%20Normal%20Form%20(3NF).md)
+
+  
+
 ### [5. ACID Properties and Transactions](ACID%20Properties/)
 
   - [What is a **Transaction**?](ACID%20Properties/1.%20What%20is%20a%20transaction.md)
