@@ -30,6 +30,18 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ---
 
+### [Various Array Patterns](Arrays/)
+
+- [**Two Pointer Techniques**](Arrays/Two%20Pointers%20Patterns.md)
+
+- [**Sliding Window Techniques**](Arrays/Sliding%20Window%20Patterns.md)
+
+---
+
+### [Linked Lists](Linked%20Lists/)
+
+- [**Overview of Linked Lists**](Linked%20Lists/Overview%20of%20Linked%20Lists.md)
+
 ### [Introduction to Graphs](Graphs/)
 
 - [**Breadth First Search (BFS)**](Graphs/Breadth%20First%20Search.md)
