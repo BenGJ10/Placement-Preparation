@@ -42,6 +42,10 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - [**Overview of Linked Lists**](Linked%20Lists/Overview%20of%20Linked%20Lists.md)
 
+- [**Linked Lists in C++**](Linked%20Lists/Linked%20Lists%20in%20CPP.md)
+
+---
+
 ### [Introduction to Graphs](Graphs/)
 
 - [**Breadth First Search (BFS)**](Graphs/Breadth%20First%20Search.md)
