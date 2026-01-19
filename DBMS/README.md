@@ -69,6 +69,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Third Normal Form (3NF)**](RDBMS%20Design/7.%20Third%20Normal%20Form%20(3NF).md)
 
+  - [**Boyce-Codd Normal Form (BCNF)**](RDBMS%20Design/8.%20Boyce-Codd%20Normal%20Form%20(BCNF).md)
+
   
 
 ### [5. ACID Properties and Transactions](ACID%20Properties/)
