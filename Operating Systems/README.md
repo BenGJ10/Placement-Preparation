@@ -57,6 +57,20 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Scheduler** vs **Dispatcher**](Process%20Scheduling/4.%20Scheduler%20vs%20Dispatcher.md)
 
   - [Scheduling **Criterias** to evaluate algorithms](Process%20Scheduling/5.%20Scheduling%20Criterias.md)
+
+  - [**First Come First Serve (FCFS)** Scheduling](Process%20Scheduling/6.%20FCFS%20Scheduling.md)
+
+  - [**Shortest Job First (SJF)** Scheduling](Process%20Scheduling/7.%20SJF%20Scheduling.md)
+
+  - [**Priority Scheduling**](Process%20Scheduling/8.%20Priority%20Scheduling.md)
+
+  - [**Round Robin (RR)** Scheduling](Process%20Scheduling/9.%20Round%20Robin%20Scheduling.md)
+
+  - [**Multilevel Queue Scheduling**](Process%20Scheduling/10.%20Multilevel%20Queue%20Scheduling.md)
+
+  - [**Multilevel Feedback Queue Scheduling**](Process%20Scheduling/11.%20Multilevel%20Feedback%20Queue%20Scheduling.md)
+
+
 ---
 
 ## How to Use
