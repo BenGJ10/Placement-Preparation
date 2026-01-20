@@ -46,6 +46,17 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Important **terms** in Process Management](Process%20Management/8.%20Important%20terms%20related%20to%20Process.md)
 
+### [3. Process Scheduling](Process%20Scheduling/)
+
+  - [**CPU Scheduling** in Operating Systems](Process%20Scheduling/1.%20Process%20Scheduling.md)
+
+  - [**Scheduling Queues**](Process%20Scheduling/2.%20Scheduling%20Queues.md)
+
+  - [**Preemptive** vs **Non-Preemptive** Scheduling](Process%20Scheduling/3.%20Preemptive%20vs%20Non-Preemptive%20Scheduling.md)
+
+  - [**Scheduler** vs **Dispatcher**](Process%20Scheduling/4.%20Scheduler%20vs%20Dispatcher.md)
+
+  - [Scheduling **Criterias** to evaluate algorithms](Process%20Scheduling/5.%20Scheduling%20Criterias.md)
 ---
 
 ## How to Use
