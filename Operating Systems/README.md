@@ -62,6 +62,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Shortest Job First (SJF)** Scheduling](Process%20Scheduling/7.%20SJF%20Scheduling.md)
 
+  - [**Shortest Remaining Time First (SRTF)** Scheduling](Process%20Scheduling/7a.%20SRTF%20Scheduling.md)
+  
   - [**Priority Scheduling**](Process%20Scheduling/8.%20Priority%20Scheduling.md)
 
   - [**Round Robin (RR)** Scheduling](Process%20Scheduling/9.%20Round%20Robin%20Scheduling.md)
