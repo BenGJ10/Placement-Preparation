@@ -82,6 +82,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Critical Section** Problem](Process%20Synchronization/3.%20Critical%20Section%20Problem.md)
 
+  - [**Peterson's Solution**](Process%20Synchronization/4.%20Peterson%27s%20Solution.md)
+
 ---
 
 ## How to Use
