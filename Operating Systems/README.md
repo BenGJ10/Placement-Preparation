@@ -73,7 +73,13 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Multilevel Feedback Queue Scheduling**](Process%20Scheduling/11.%20Multilevel%20Feedback%20Queue%20Scheduling.md)
 
   - [**Starvation** and **Aging**](Process%20Scheduling/12.%20Starvation%20and%20Aging.md)
-   
+
+### [4. Process Synchronization](Process%20Synchronization/)
+
+  - [Why **Process Synchronization** is needed?](Process%20Synchronization/1.%20Need%20of%20Process%20Synchronization.md)
+
+  - [**Data Inconsistency** and **Race Condition**](Process%20Synchronization/2.%20Data%20Inconsistency%20and%20Race%20Condition.md)
+  
 ---
 
 ## How to Use
