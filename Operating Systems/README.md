@@ -79,7 +79,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Why **Process Synchronization** is needed?](Process%20Synchronization/1.%20Need%20of%20Process%20Synchronization.md)
 
   - [**Data Inconsistency** and **Race Condition**](Process%20Synchronization/2.%20Data%20Inconsistency%20and%20Race%20Condition.md)
-  
+
+  - [**Critical Section** Problem](Process%20Synchronization/3.%20Critical%20Section%20Problem.md)
+
 ---
 
 ## How to Use
