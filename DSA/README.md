@@ -36,6 +36,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - [**Sliding Window Techniques**](Arrays/Sliding%20Window%20Patterns.md)
 
+- [**Prefix Sum Techniques**](Arrays/Prefix%20Sum%20Patterns.md)
+
+- [**Difference Array Technique**](Arrays/Difference%20Array.md)
 ---
 
 ### [Linked Lists](Linked%20Lists/)
