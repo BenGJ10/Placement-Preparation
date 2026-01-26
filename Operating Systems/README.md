@@ -84,6 +84,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Peterson's Solution**](Process%20Synchronization/4.%20Peterson%27s%20Solution.md)
 
+  - [**Semaphores** in OS](Process%20Synchronization/5.%20Semaphores.md)
 ---
 
 ## How to Use
