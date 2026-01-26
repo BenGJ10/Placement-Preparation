@@ -88,10 +88,22 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Busy Waiting** and **Spinlocks**](Process%20Synchronization/6.%20Busy%20Waiting%20and%20Spinlocks.md)
 
-  - [**Deadlocks** in Operating Systems](Process%20Synchronization/7.%20Deadlocks.md)
 
-  - [**Starvation** in Operating Systems](Process%20Synchronization/8.%20Starvation%20in%20OS.md)
-  
+
+### [5. Deadlocks](Deadlocks/)
+
+  - [**Deadlocks** in Operating Systems](Deadlocks/1.%20Deadlocks%20in%20OS.md)
+
+  - [**Deadlock Prevention**](Deadlocks/2.%20Deadlock%20Prevention.md)
+
+  - [**Deadlock Avoidance**](Deadlocks/3.%20Deadlock%20Avoidance.md)
+
+  - [**Banker’s Algorithm**](Deadlocks/4.%20Banker%27s%20Algorithm.md)
+
+  - [**Deadlock Detection** and Recovery](Deadlocks/5.%20Deadlock%20Detection.md)
+
+  - [**Deadlock Ignorance**](Deadlocks/6.%20Deadlock%20Ignorance.md)
+
 ---
 
 ## How to Use
