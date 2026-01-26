@@ -85,6 +85,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Peterson's Solution**](Process%20Synchronization/4.%20Peterson%27s%20Solution.md)
 
   - [**Semaphores** in OS](Process%20Synchronization/5.%20Semaphores.md)
+
+  - [**Busy Waiting** and **Spinlocks**](Process%20Synchronization/6.%20Busy%20Waiting%20and%20Spinlocks.md)
+
 ---
 
 ## How to Use
