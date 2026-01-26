@@ -89,7 +89,6 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Busy Waiting** and **Spinlocks**](Process%20Synchronization/6.%20Busy%20Waiting%20and%20Spinlocks.md)
 
 
-
 ### [5. Deadlocks](Deadlocks/)
 
   - [**Deadlocks** in Operating Systems](Deadlocks/1.%20Deadlocks%20in%20OS.md)
@@ -103,6 +102,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Deadlock Detection** and Recovery](Deadlocks/5.%20Deadlock%20Detection.md)
 
   - [**Deadlock Ignorance**](Deadlocks/6.%20Deadlock%20Ignorance.md)
+
+  - [**Starvation**](Deadlocks/7.%20Starvation.md)
 
 ---
 
