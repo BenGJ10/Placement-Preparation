@@ -88,6 +88,10 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Busy Waiting** and **Spinlocks**](Process%20Synchronization/6.%20Busy%20Waiting%20and%20Spinlocks.md)
 
+  - [**Deadlocks** in Operating Systems](Process%20Synchronization/7.%20Deadlocks.md)
+
+  - [**Starvation** in Operating Systems](Process%20Synchronization/8.%20Starvation%20in%20OS.md)
+  
 ---
 
 ## How to Use
