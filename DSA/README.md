@@ -39,7 +39,14 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [**Prefix Sum Techniques**](Arrays/Prefix%20Sum%20Patterns.md)
 
 - [**Difference Array Technique**](Arrays/Difference%20Array.md)
+
 ---
+
+### Searching Algorithms
+
+- [**Binary Search**](Searching%20Algorithms/Binary%20Search.md)
+
+- [**Binary Search on Answers**](Searching%20Algorithms/Binary%20Search%20on%20Answer.md)
 
 ### [Linked Lists](Linked%20Lists/)
 
