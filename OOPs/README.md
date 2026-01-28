@@ -21,9 +21,9 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Function **Overriding**](Polymorphism/3.%20Method%20Overriding.md)
 
-  - [Virtual Functions, Inline Virtual Functions](Polymorphism/4.%20Virtual%20Functions%20and%20Inline%20Virtual%20Functions.md)
+  - [**Virtual** Functions, **Inline Virtual** Functions](Polymorphism/4.%20Virtual%20Functions%20and%20Inline%20Virtual%20Functions.md)
 
-  - [Abstract Classes and Pure Virtual Functions](Polymorphism/6.%20Abstract%20Classes%20and%20Pure%20Virtual%20Functions.md)
+  - [**Abstract** Classes and **Pure Virtual** Functions](Polymorphism/6.%20Abstract%20Classes%20and%20Pure%20Virtual%20Functions.md)
 
   
 
