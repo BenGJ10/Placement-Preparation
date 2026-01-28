@@ -17,7 +17,18 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
     
   - [Overview of **Polymorphism**](Polymorphism/1.%20Overview%20of%20Polymorphism.md)
     
-    
+  - [Function and Operator **Overloading**](Polymorphism/2.%20Function%20Overloading.md)
+
+  - [Function **Overriding**](Polymorphism/3.%20Method%20Overriding.md)
+
+  - [Virtual Functions](Polymorphism/4.%20Virtual%20Functions.md)
+
+  - [Inline Functions](Polymorphism/5.%20Inline%20Functions.md)
+
+  - [Abstract Classes and Pure Virtual Functions](Polymorphism/6.%20Abstract%20Classes%20and%20Pure%20Virtual%20Functions.md)
+
+  
+
 ---
 
 ## How to Use
