@@ -21,11 +21,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**final** Keyword](Keywords/4.%20final%20Keyword.md)
 
-  - [**mutable** Keyword](Keywords/5.%20mutable%20Keyword.md)
+  - [**abstract** Keyword](Keywords/5.%20abstract%20Keyword.md)
 
-  - [**abstract** Keyword](Keywords/6.%20abstract%20Keyword.md)
-
-  - [**super** Keyword](Keywords/7.%20super%20Keyword.md)
 
 ### [3. Polymorphism](Polymorphism/)
     
@@ -39,6 +36,14 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Abstract** Classes and **Pure Virtual** Functions](Polymorphism/6.%20Abstract%20Classes%20and%20Pure%20Virtual%20Functions.md)
 
+### [4. Inheritance](Inheritance/)
+
+  - [Overview of **Inheritance**](Inheritance/1.%20Overview%20of%20Inheritance.md)
+
+  - [**super** and **sub** Classes](Inheritance/2.%20super%20and%20sub%20Classes.md)
+  - [Types of Inheritance](Inheritance/3.%20Types%20of%20Inheritance.md)
+
+  
   
 
 ---
