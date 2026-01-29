@@ -41,7 +41,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [Overview of **Inheritance**](Inheritance/1.%20Overview%20of%20Inheritance.md)
 
   - [**super** and **sub** Classes](Inheritance/2.%20super%20and%20sub%20Classes.md)
-  - [Types of Inheritance](Inheritance/3.%20Types%20of%20Inheritance.md)
+  
+  - [Types of **Inheritance**](Inheritance/3.%20Types%20of%20Inheritance.md)
 
   
   
