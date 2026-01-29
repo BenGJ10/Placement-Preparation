@@ -44,9 +44,27 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   
   - [Types of **Inheritance**](Inheritance/3.%20Types%20of%20Inheritance.md)
 
-  
-  
+  - [**Access Specifiers** in Inheritance](Inheritance/4.%20Access%20Specifiers%20in%20Inheritance.md)
 
+  - [**Constructor** and **Destructor** in Inheritance](Inheritance/5.%20Constructor%20and%20Destructor%20in%20Inheritance.md)
+
+  - [**Virtual Base Classes**](Inheritance/6.%20Virtual%20Base%20Classes.md)
+
+  - [**Composition vs Aggregation vs Inheritance**](Inheritance/7.%20Composition%20vs%20Aggregation%20vs%20Inheritance.md)
+  
+  - [**Smart Pointers** and Inheritance](Inheritance/8.%20Smart%20Pointers%20and%20Inheritance.md)
+
+
+### [CPP Miscellaneous Topics](CPP%20Miscellaneous/)
+
+  - [**RAII (Resource Acquisition Is Initialization)**](CPP%20Miscellaneous/1.%20RAII%20(Resource%20Acquisition%20Is%20Initialization).md)
+
+  - [**Smart Pointers**](CPP%20Miscellaneous/2.%20Smart%20Pointers.md)
+
+  - [**Dynamic Binding**](CPP%20Miscellaneous/3.%20Dynamic%20Binding.md)
+
+  - [**SOLID Principles**](CPP%20Miscellaneous/4.%20SOLID%20Principles.md)
+  
 ---
 
 ## How to Use
