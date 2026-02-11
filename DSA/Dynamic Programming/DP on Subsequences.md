@@ -1,86 +1,127 @@
-# DP on Strings
+# DP on Subsequences
 
-Dynamic Programming on Strings is one of the most important interview topics because many problems involve:
+DP on Subsequences is one of the most important Dynamic Programming categories.
 
-* matching sequences
-* editing strings
-* counting transformations
-* finding subsequences
-* palindrome-based logic
+It deals with problems where:
 
-Most string DP problems revolve around comparing **two indices**.
+* we make a decision at each index
+* we either **pick** or **do not pick** an element
+* order of elements is preserved
+* elements do not need to be contiguous
 
----
-
-## When to Recognize DP on Strings
-
-Look for keywords like:
-
-* subsequence
-* substring
-* palindrome
-* insert/delete/replace
-* transformations
-* matching
-* minimum operations
-* longest common
-
-If recursion compares characters from two strings, DP is almost guaranteed.
+This is different from subarrays (which are contiguous).
 
 ---
 
-## Core DP State
+## What is a Subsequence?
 
-Most string DP problems use:
+Given array:
 
 ```
-dp[i][j]
+[3, 1, 2]
 ```
 
-Meaning:
+Subsequences include:
 
-> Answer using first `i` characters of string1 and first `j` characters of string2.
+```
+[]
+[3]
+[1]
+[2]
+[3,1]
+[3,2]
+[1,2]
+[3,1,2]
+```
 
-Always define the state **in words** before coding.
+Subsequence preserves order but skips allowed.
 
 ---
 
-## Pattern 1: Longest Common Subsequence (LCS)
+## When to Recognize DP on Subsequences
 
-This is the **foundation** of string DP.
+Look for:
 
-Many problems reduce to LCS.
+* subset problems
+* knapsack-type problems
+* partition problems
+* count number of ways
+* target sum
+* LCS-style problems
+* include/exclude logic
+
+If brute force is:
+
+```
+for each element → pick or not pick
+```
+
+Then DP on subsequences is likely.
 
 ---
+
+## Core Pattern: Pick / Not Pick
+
+At index `i`, you have two choices:
+
+1. Not pick element `i`
+2. Pick element `i` (if allowed)
+
+Recurrence often looks like:
+
+```
+f(i, target) =
+    f(i-1, target)              // not pick
+    +
+    f(i-1, target - arr[i])     // pick
+```
+
+This is the backbone of subsequence DP.
+
+---
+
+## 1. Subset Sum (Classic Foundation Problem)
 
 ### Problem
 
-**Find the longest subsequence present in both strings**.
-
-Example:
-
-```
-s1 = "abcde"
-s2 = "ace"
-
-LCS = "ace"
-length = 3
-```
+Given array and target sum, determine if a subset sums to target.
 
 ---
 
-### Recurrence
-
-If characters match:
+### Recursive Relation
 
 ```
-dp[i][j] = 1 + dp[i-1][j-1]
+f(i, target) =
+    f(i-1, target)
+    OR
+    f(i-1, target - arr[i])
 ```
 
-Else:
+Base cases:
 
-```
-dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+* if target == 0 → true
+* if i == 0 → arr[0] == target
+
+---
+
+### Memoization (Top-Down)
+
+```cpp
+bool f(int i, int target, vector<int>& arr, vector<vector<int>>& dp) {
+    if (target == 0) return true;
+    if (i == 0) return arr[0] == target;
+
+    if (dp[i][target] != -1)
+        return dp[i][target];
+
+    bool notPick = f(i - 1, target, arr, dp);
+
+    bool pick = false;
+    if (arr[i] <= target)
+        pick = f(i - 1, target - arr[i], arr, dp);
+
+    return dp[i][target] = pick || notPick;
+}
 ```
 
 ---
@@ -88,343 +129,275 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-1])
 ### Tabulation
 
 ```cpp
-int LCS(string a, string b) {
-    int n = a.size(), m = b.size();
-    vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+bool subsetSum(vector<int>& arr, int target) {
+    int n = arr.size();
+    vector<vector<bool>> dp(n, vector<bool>(target + 1, false));
 
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= m; j++) {
-            if (a[i-1] == b[j-1])
-                dp[i][j] = 1 + dp[i-1][j-1];
-            else
-                dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
+    for (int i = 0; i < n; i++)
+        dp[i][0] = true;
+
+    if (arr[0] <= target)
+        dp[0][arr[0]] = true;
+
+    for (int i = 1; i < n; i++) {
+        for (int t = 1; t <= target; t++) {
+            bool notPick = dp[i - 1][t];
+            bool pick = false;
+            if (arr[i] <= t)
+                pick = dp[i - 1][t - arr[i]];
+
+            dp[i][t] = pick || notPick;
         }
     }
-    return dp[n][m];
+
+    return dp[n - 1][target];
 }
 ```
 
 ---
 
-### Space Optimization
+### Space Optimization (1D)
 
-Only previous row needed.
+Backward iteration required (0/1 nature).
 
 ```cpp
-int LCS(string a, string b) {
-    int n = a.size(), m = b.size();
-    vector<int> prev(m+1, 0), cur(m+1, 0);
+bool subsetSum(vector<int>& arr, int target) {
+    vector<bool> dp(target + 1, false);
+    dp[0] = true;
 
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= m; j++) {
-            if (a[i-1] == b[j-1])
-                cur[j] = 1 + prev[j-1];
-            else
-                cur[j] = max(prev[j], cur[j-1]);
+    for (int num : arr) {
+        for (int t = target; t >= num; t--) {
+            dp[t] = dp[t] || dp[t - num];
         }
-        prev = cur;
     }
-    return prev[m];
+    return dp[target];
 }
 ```
 
 ---
 
-## Pattern 2: Longest Common Substring
-
-Unlike subsequence:
-
-* must be contiguous
-* reset when mismatch occurs
+## 2. 0/1 Knapsack (Value Maximization)
 
 ---
 
 ### Recurrence
 
 ```
-if match:
-    dp[i][j] = 1 + dp[i-1][j-1]
-else:
-    dp[i][j] = 0
+dp[i][w] =
+    max(
+        dp[i-1][w],
+        value[i] + dp[i-1][w-weight[i]]
+    )
 ```
-
-Track global maximum.
 
 ---
 
-### Code
+### 1D Optimized Version
 
 ```cpp
-int longestCommonSubstring(string a, string b) {
-    int n = a.size(), m = b.size();
-    vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+int knapsack(vector<int>& wt, vector<int>& val, int W) {
+    vector<int> dp(W + 1, 0);
 
-    int ans = 0;
-
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= m; j++) {
-            if (a[i-1] == b[j-1]) {
-                dp[i][j] = 1 + dp[i-1][j-1];
-                ans = max(ans, dp[i][j]);
-            }
+    for (int i = 0; i < wt.size(); i++) {
+        for (int w = W; w >= wt[i]; w--) {
+            dp[w] = max(dp[w], val[i] + dp[w - wt[i]]);
         }
     }
-    return ans;
+
+    return dp[W];
 }
 ```
 
 ---
 
-## Pattern 3: Edit Distance (Levenshtein Distance)
+## 3. Count of Subsets with Given Sum
 
-Find minimum operations to convert one string to another.
-
-Allowed operations:
-
-* insert
-* delete
-* replace
+Instead of boolean, count number of ways.
 
 ---
 
 ### Recurrence
 
-If characters match:
-
 ```
-dp[i][j] = dp[i-1][j-1]
-```
-
-Else:
-
-```
-1 + min(
-    dp[i-1][j],    // delete
-    dp[i][j-1],    // insert
-    dp[i-1][j-1]   // replace
-)
+f(i, target) =
+    f(i-1, target)
+    +
+    f(i-1, target - arr[i])
 ```
 
 ---
 
-### Code
+### Code (Tabulation)
 
 ```cpp
-int editDistance(string a, string b) {
-    int n = a.size(), m = b.size();
-    vector<vector<int>> dp(n+1, vector<int>(m+1));
+int countSubsets(vector<int>& arr, int target) {
+    int n = arr.size();
+    vector<vector<int>> dp(n, vector<int>(target + 1, 0));
 
-    for (int i = 0; i <= n; i++)
-        dp[i][0] = i;
+    for (int i = 0; i < n; i++)
+        dp[i][0] = 1;
 
-    for (int j = 0; j <= m; j++)
-        dp[0][j] = j;
+    if (arr[0] <= target)
+        dp[0][arr[0]] = 1;
 
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= m; j++) {
-            if (a[i-1] == b[j-1])
-                dp[i][j] = dp[i-1][j-1];
-            else
-                dp[i][j] = 1 + min({
-                    dp[i-1][j],
-                    dp[i][j-1],
-                    dp[i-1][j-1]
-                });
+    for (int i = 1; i < n; i++) {
+        for (int t = 0; t <= target; t++) {
+            int notPick = dp[i - 1][t];
+            int pick = 0;
+            if (arr[i] <= t)
+                pick = dp[i - 1][t - arr[i]];
+
+            dp[i][t] = pick + notPick;
         }
     }
-    return dp[n][m];
+
+    return dp[n - 1][target];
 }
 ```
 
 ---
 
-## Pattern 4: Shortest Common Supersequence
+## 4. Target Sum Problem
 
-Smallest string containing both as subsequences.
+Transform into subset sum:
 
-Key relation:
-
-```
-len = n + m - LCS
-```
-
-To print the string, backtrack through LCS table.
-
----
-
-## Pattern 5: Longest Palindromic Subsequence
+Assign + or − to each element.
 
 Trick:
 
-Reverse the string and compute LCS.
+```
+S1 - S2 = target
+S1 + S2 = total
+```
+
+Solve:
 
 ```
-LPS(s) = LCS(s, reverse(s))
+S1 = (target + total) / 2
 ```
+
+Then count subsets with sum = S1.
 
 ---
 
-## Pattern 6: Minimum Insertions to Make Palindrome
+## 5. Partition Equal Subset Sum
 
-Another LCS transformation:
+Check if array can be divided into 2 equal sum subsets.
 
 ```
-answer = n - LPS
+total % 2 != 0 → false
 ```
+
+Solve subset sum with target = total / 2.
 
 ---
 
-## Pattern 7: Distinct Subsequences
+## Core Differences from Subarray DP
 
-Count ways string `s` forms `t`.
-
-### Recurrence
-
-If characters match:
-
-```
-take + skip
-```
-
-Else:
-
-```
-skip
-```
+| Subarray DP             | Subsequence DP       |
+| ----------------------- | -------------------- |
+| contiguous              | non-contiguous       |
+| sliding window possible | not possible         |
+| prefix sum useful       | pick/not-pick useful |
 
 ---
 
-### Code
+## Common State Definitions
 
-```cpp
-long long numDistinct(string s, string t) {
-    int n = s.size(), m = t.size();
-    vector<vector<long long>> dp(n+1, vector<long long>(m+1, 0));
+For subsequence DP:
 
-    for (int i = 0; i <= n; i++)
-        dp[i][0] = 1;
-
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= m; j++) {
-            if (s[i-1] == t[j-1])
-                dp[i][j] = dp[i-1][j-1] + dp[i-1][j];
-            else
-                dp[i][j] = dp[i-1][j];
-        }
-    }
-    return dp[n][m];
-}
 ```
+dp[i][target]
+dp[i][weight]
+dp[i][sum]
+dp[i][count]
+```
+
+Always depends on previous index `i-1`.
 
 ---
 
-## Common DP on Strings Patterns Summary
+## Recognizing 0/1 vs Unbounded
 
-| Pattern               | Base Idea             |
-| --------------------- | --------------------- |
-| LCS                   | match vs skip         |
-| substring             | reset on mismatch     |
-| edit distance         | insert/delete/replace |
-| palindrome            | reverse + LCS         |
-| supersequence         | LCS relation          |
-| counting subsequences | take / not take       |
+If each element used once → backward iteration
+If element reusable → forward iteration
 
----
-
-## Typical Complexity
-
-Most string DP:
-
-```
-Time: O(n × m)
-Space: O(n × m)
-Optimized: O(min(n,m))
-```
+This is critical.
 
 ---
 
 ## Common Mistakes
 
-* confusing substring vs subsequence
-* incorrect dp base cases
-* off-by-one indexing
-* not shifting indices (dp size n+1)
-* forgetting space optimization
-* using recursion → TLE
+* forward loop in 0/1 DP
+* wrong base initialization
+* forgetting dp[i][0] = true
+* integer overflow
+* forgetting modulo in count problems
+* mixing pick and not-pick incorrectly
 
 ---
 
 ## Interview Questions (With Answers)
 
-### Q1. Why is LCS foundational?
+### Q1. Why backward iteration in 1D DP?
 
-Because many problems reduce to it through transformations.
-
----
-
-### Q2. How to differentiate substring vs subsequence DP?
-
-Substring resets on mismatch.
-Subsequence takes max of neighbors.
+To avoid reusing the same element multiple times.
 
 ---
 
-### Q3. Why dp is sized (n+1)(m+1)?
+### Q2. Why subsequence DP is exponential without memo?
 
-To handle empty prefixes cleanly.
-
----
-
-### Q4. Can string DP be optimized to 1D?
-
-Yes, when transitions depend only on previous row.
+Because every element has 2 choices → 2ⁿ states.
 
 ---
 
-### Q5. Why is edit distance harder than LCS?
+### Q3. How do you convert pick/not-pick recursion to tabulation?
 
-Because it has three transitions instead of two.
-
----
-
-## LeetCode Problems (DP on Strings)
-
-* [https://leetcode.com/problems/longest-common-subsequence/](https://leetcode.com/problems/longest-common-subsequence/)
-* [https://leetcode.com/problems/edit-distance/](https://leetcode.com/problems/edit-distance/)
-* [https://leetcode.com/problems/distinct-subsequences/](https://leetcode.com/problems/distinct-subsequences/)
-* [https://leetcode.com/problems/longest-palindromic-subsequence/](https://leetcode.com/problems/longest-palindromic-subsequence/)
-* [https://leetcode.com/problems/shortest-common-supersequence/](https://leetcode.com/problems/shortest-common-supersequence/)
-* [https://leetcode.com/problems/delete-operation-for-two-strings/](https://leetcode.com/problems/delete-operation-for-two-strings/)
-* [https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
-* [https://leetcode.com/problems/is-subsequence/](https://leetcode.com/problems/is-subsequence/)
+Replace recursion tree by dp table filled row-wise.
 
 ---
 
-## How to Master String DP
+### Q4. How to recognize knapsack-type problem?
 
-Follow this order:
+When problem involves:
 
-1. LCS
-2. Longest Common Substring
-3. Edit Distance
-4. Palindromic Subsequence
-5. Distinct Subsequences
-6. Supersequence
+* weights
+* capacity
+* maximize/minimize
+* pick items
 
-Most interview questions derive from these.
+---
+
+### Q5. Why does subset sum require 2D DP?
+
+Because state depends on index and target.
+
+---
+
+## LeetCode Problems
+
+* [https://leetcode.com/problems/partition-equal-subset-sum/](https://leetcode.com/problems/partition-equal-subset-sum/)
+* [https://leetcode.com/problems/target-sum/](https://leetcode.com/problems/target-sum/)
+* [https://leetcode.com/problems/coin-change-2/](https://leetcode.com/problems/coin-change-2/)
+* [https://leetcode.com/problems/last-stone-weight-ii/](https://leetcode.com/problems/last-stone-weight-ii/)
+* [https://leetcode.com/problems/subset-sum/](https://leetcode.com/problems/subset-sum/)
+* [https://leetcode.com/problems/combination-sum-iv/](https://leetcode.com/problems/combination-sum-iv/)
+* [https://leetcode.com/problems/ones-and-zeroes/](https://leetcode.com/problems/ones-and-zeroes/)
+* [https://leetcode.com/problems/number-of-subsets-with-sum-k/](https://leetcode.com/problems/number-of-subsets-with-sum-k/)
+* [https://leetcode.com/problems/partition-to-k-equal-sum-subsets/](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 
 ---
 
 ## Summary
 
-* DP on strings compares prefixes using `dp[i][j]`
+* DP on subsequences is built on pick/not-pick logic
 
-* LCS is the most important base pattern
+* Used for subset, knapsack, partition, counting problems
 
-* Many problems are transformations of LCS
+* Often 2D → can optimize to 1D
 
-* Complexity usually O(n × m)
+* Requires backward iteration in 0/1 problems
 
-* Correct state definition is the hardest part
+* Extremely common in interviews
 
 ---
