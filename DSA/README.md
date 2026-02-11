@@ -48,6 +48,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - [**Binary Search on Answers**](Searching%20Algorithms/Binary%20Search%20on%20Answer.md)
 
+---
+
 ### [Linked Lists](Linked%20Lists/)
 
 - [**Overview of Linked Lists**](Linked%20Lists/Overview%20of%20Linked%20Lists.md)
@@ -55,6 +57,14 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [**Linked Lists in C++**](Linked%20Lists/Linked%20Lists%20in%20CPP.md)
 
 ---
+
+### [Complete Trees](Trees/)
+
+- [**Overview of Trees**](Trees/Overview%20of%20Trees.md)
+
+- [Properties of **Binary Trees**](Trees/Properties%20of%20Binary%20Trees.md)
+
+- [Solve problems on **Binary Trees**](Trees/Problems%20on%20Binary%20Trees.md)
 
 ### [Introduction to Graphs](Graphs/)
 
@@ -79,6 +89,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [**Overview of 1D DP**](Dynamic%20Programming/Overview%20of%201D%20DP.md)
 
 - [**Overview of 2D DP**](Dynamic%20Programming/Overview%20of%202D%20DP.md)
+
+- [**DP on Subsequences**](Dynamic%20Programming/DP%20on%20Subsequences.md)
 
 ---
 
