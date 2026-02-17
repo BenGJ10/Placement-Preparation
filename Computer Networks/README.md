@@ -10,23 +10,25 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ### [1. Introduction to Computer Networks](Introduction/)
 
-  - [What is Computer Networking?](Basics/1.%20What%20is%20Computer%20Networking.md)
+  - [What is **Computer Networking**?](Basics/1.%20What%20is%20Computer%20Networking.md)
   
   - [Important Terms in Computer Networks](Basics/2.%20Important%20Terms.md)
 
-  - [Types of Computer Networks](Basics/3.%20Types%20of%20Networks.md)
+  - [Types of **Computer Networks**](Basics/3.%20Types%20of%20Networks.md)
 
-  - [Network Topologies](Basics/4.%20Network%20Topologies.md)
+  - [Network **Topologies**](Basics/4.%20Network%20Topologies.md)
 
-  - [Web vs Internet](Basics/5.%20Web%20vs%20Internet.md)
+  - [**Web** vs **Internet**](Basics/5.%20Web%20vs%20Internet.md)
 
-  - [Networking Devices](Basics/6.%20Networking%20Devices.md)
+  - [**Networking Devices**](Basics/6.%20Networking%20Devices.md)
 
 ### [2. OSI Model](OSI%20Models/)
 
-  - [OSI Model](OSI%20Models/1.%20OSI%20Model.md)
+  - [**OSI** Model](OSI%20Models/1.%20OSI%20Model.md)
 
-  - [TCP/IP Model](OSI%20Models/2.%20TCP-IP%20Model.md)
+  - [**TCP/IP** Model](OSI%20Models/2.%20TCP-IP%20Model.md)
+
+  - [**IPv4** Addressing](OSI%20Models/3.%20IPv4%20Addressing.md)
 
 ---
 
