@@ -30,6 +30,15 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**IPv4** Addressing](OSI%20Models/3.%20IPv4%20Addressing.md)
 
+  - [Network **Protocols**](OSI%20Models/4.%20Network%20Protocols.md)
+
+### [3. Physical Layer](Physical%20Layer/)
+
+  - [Transmission Media](Physical%20Layer/1.%20Transmission%20Media.md)
+
+  - [**Throughput**, **Bandwidth**, and **Latency**](Physical%20Layer/2.%20Throughput%20Bandwidth%20Latency.md)
+  
+
 ---
 
 ## How to Use
