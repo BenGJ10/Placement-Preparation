@@ -32,6 +32,10 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Network **Protocols**](OSI%20Models/4.%20Network%20Protocols.md)
 
+  - [**ARP** Protocol](OSI%20Models/5.%20ARP%20Protocol.md)
+
+  - [**ICMP** Protocol](OSI%20Models/6.%20ICMP%20Protocol.md)
+
 ### [3. Physical Layer](Physical%20Layer/)
 
   - [Transmission Media](Physical%20Layer/1.%20Transmission%20Media.md)
