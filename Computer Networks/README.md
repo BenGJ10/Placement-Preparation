@@ -42,7 +42,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Throughput**, **Bandwidth**, and **Latency**](Physical%20Layer/2.%20Throughput%20Bandwidth%20Latency.md)
   
-
+  - [**Modulation** and **Multiplexing**](Physical%20Layer/3.%20Modulation%20and%20Multiplexing.md)
+  
 ---
 
 ## How to Use
