@@ -57,6 +57,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**IP Protocol Concepts** — ARP, RARP, ICMP, IGMP](Network%20Layer/5.%20IP%20Protocol%20Concepts.md)
 
   - [**NAT** (Network Address Translation)](Network%20Layer/6.%20NAT.md)
+
+  - [**How the Internet Works** — End to End](Network%20Layer/7.%20How%20the%20Internet%20Works.md)
   
 ---
 
