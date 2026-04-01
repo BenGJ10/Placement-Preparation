@@ -43,6 +43,20 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Throughput**, **Bandwidth**, and **Latency**](Physical%20Layer/2.%20Throughput%20Bandwidth%20Latency.md)
   
   - [**Modulation** and **Multiplexing**](Physical%20Layer/3.%20Modulation%20and%20Multiplexing.md)
+
+### [4. Network Layer](Network%20Layer/)
+
+  - [**IPv4** vs **IPv6** Addressing](Network%20Layer/1.%20IPv4%20vs%20IPv6%20Addressing.md)
+
+  - [**Subnetting**, **Supernetting**, and **CIDR**](Network%20Layer/2.%20Subnetting%20Supernetting%20CIDR.md)
+
+  - [**Routing Algorithms** — Distance Vector, Link State, Bellman-Ford, Dijkstra](Network%20Layer/3.%20Routing%20Algorithms.md)
+
+  - [**Routing Protocols** — RIP, OSPF, BGP](Network%20Layer/4.%20Routing%20Protocols.md)
+
+  - [**IP Protocol Concepts** — ARP, RARP, ICMP, IGMP](Network%20Layer/5.%20IP%20Protocol%20Concepts.md)
+
+  - [**NAT** (Network Address Translation)](Network%20Layer/6.%20NAT.md)
   
 ---
 
