@@ -59,7 +59,29 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**NAT** (Network Address Translation)](Network%20Layer/6.%20NAT.md)
 
   - [**How the Internet Works** — End to End](Network%20Layer/7.%20How%20the%20Internet%20Works.md)
-  
+
+### [5. Transport Layer](Transport%20Layer/)
+
+  - [**Transport Layer** Overview](Transport%20Layer/1.%20Transport%20Layer%20Overview.md)
+
+  - [**UDP** — User Datagram Protocol](Transport%20Layer/2.%20UDP%20Protocol.md)
+
+  - [**TCP** — Transmission Control Protocol](Transport%20Layer/3.%20TCP%20Protocol.md)
+
+### [6. Application Layer](Application%20Layer/)
+
+  - [**DNS** (Domain Name System)](Application%20Layer/1.%20DNS.md)
+
+  - [**HTTP** vs **HTTPS**](Application%20Layer/2.%20HTTP%20vs%20HTTPS.md)
+
+  - [**Email Protocols** — SMTP, POP3, IMAP](Application%20Layer/3.%20Email%20Protocols.md)
+
+  - [**FTP** and **TFTP**](Application%20Layer/4.%20FTP%20and%20TFTP.md)
+
+  - [**DHCP** (Dynamic Host Configuration Protocol)](Application%20Layer/5.%20DHCP.md)
+
+  - [**SSH** and **Telnet**](Application%20Layer/6.%20SSH%20and%20Telnet.md)
+
 ---
 
 ## How to Use
