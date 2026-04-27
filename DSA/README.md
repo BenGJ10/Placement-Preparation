@@ -40,6 +40,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - [**Difference Array Technique**](Arrays/Difference%20Array.md)
 
+- [How to **solve** Array problems based on these patterns?](Arrays/How%20to%20solve%20Array%20problems%20based%20on%20these%20patterns.md)
+
 ---
 
 ### Searching Algorithms
@@ -66,6 +68,8 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - [Solve problems on **Binary Trees**](Trees/Problems%20on%20Binary%20Trees.md)
 
+---
+
 ### [Introduction to Graphs](Graphs/)
 
 - [**Breadth First Search (BFS)**](Graphs/Breadth%20First%20Search.md)
@@ -77,6 +81,12 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [**Shortest Path Algorithms**](Graphs/Shortest%20Path%20Algos.md)
 
 - [**Dijkstra** and **Bellman-Ford**](Graphs/Dijkstra%20and%20Bellman%20Ford's%20Algos.md)
+
+- [**Floyd Warshall**](Graphs/Floyd%20Warshall.md)
+
+- [**Minimum Spanning Tree (MST)**](Graphs/Minimum%20Spanning%20Tree.md)
+
+- [How to **identify** and **solve** Graph problems?](Graphs/How%20to%20identify%20and%20solve%20Graph%20problems.md)
 
 ---
 
