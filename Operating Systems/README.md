@@ -105,6 +105,28 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [**Starvation**](Deadlocks/7.%20Starvation.md)
 
+### [6. Memory Management](Memory%20Management/)
+
+  - [**Logical** vs **Physical** Address Space](Memory%20Management/1.%20Logical%20vs%20Physical%20Address%20Space.md)
+
+  - [**Swapping** and **Contiguous Memory Allocation**](Memory%20Management/2.%20Swapping%20and%20Contiguous%20Memory%20Allocation.md)
+
+  - [**Fragmentation** in Operating Systems](Memory%20Management/3.%20Fragmentation%20in%20OS.md)
+
+  - [**Paging** in Operating Systems](Memory%20Management/4.%20Paging%20in%20OS.md)
+
+  - [**Segmentation** in Operating Systems](Memory%20Management/5.%20Segmentation%20in%20OS.md)
+
+  - [**Virtual Memory** and **Demand Paging**](Memory%20Management/6.%20Virtual%20Memory%20and%20Demand%20Paging.md)
+
+  - [**Page Fault** Handling](Memory%20Management/7.%20Page%20Fault%20Handling.md)
+
+  - [**Page Replacement Algorithms**](Memory%20Management/8.%20Page%20Replacement%20Algorithms.md)
+
+  - [**Thrashing** and **Overlays**](Memory%20Management/9.%20Thrashing%20and%20Overlays.md)
+
+  - [**TLB** and **Multi-Level Paging**](Memory%20Management/10.%20TLB%20and%20Multi-Level%20Paging.md)
+
 ---
 
 ## How to Use
