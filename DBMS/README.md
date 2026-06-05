@@ -49,8 +49,13 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
   - [**Joins** in SQL](SQL/6.%20SQL%20Joins.md)
   
   - [**Views** in SQL](SQL/7.%20SQL%20Views.md)
-  
 
+  - [**Indexes** in SQL](SQL/8.%20SQL%20Indexes.md)
+
+  - [**Subqueries** in SQL](SQL/9.%20SQL%20Subqueries.md)
+
+  - [**Stored Procedures** in SQL](SQL/10.%20SQL%20Stored%20Procedures.md)
+  
 ### [4. Solve SQL Problems](SQL/README.md)
 
 ### [5. RDBMS Design](RDBMS%20Design/)
@@ -87,6 +92,23 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
   - [Complete Overview of **ACID Properties**](ACID%20Properties/6.%20Complete%20Overview.md)
 
+### [6. Transaction Processing & Concurrency Control](Transaction%20Processing/)
+
+  - [What is **Transaction Processing**?](Transaction%20Processing/1.%20What%20is%20Transaction%20Processing.md)
+  
+  - [What are **Schedules**? and **Schedule Types**](Transaction%20Processing/2.%20Schedules%20and%20Types.md)
+
+  - [**Serializability** of Schedules](Transaction%20Processing/3.%20Serializability.md)
+
+  - [What is **Concurrency Control**?](Transaction%20Processing/4.%20What%20is%20Concurrency%20Control.md)
+
+  - [**Problems** in Concurrency Control](Transaction%20Processing/5.%20Problems%20in%20Concurrency%20Control.md)
+
+  - [**Locking Protocols** in Concurrency Control](Transaction%20Processing/6.%20Locking%20Protocols.md)
+
+  - [**Deadlocks** in Concurrency Control](Transaction%20Processing/7.%20Deadlocks.md)
+
+  - [**Recoverability** in Concurrency Control](Transaction%20Processing/8.%20Recoverability.md)
 
 ---
 
