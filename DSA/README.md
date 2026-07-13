@@ -4,7 +4,13 @@ This folder contains comprehensive notes on Data Structures and Algorithms (DSA)
 
 Each topic is explained in detail with examples and diagrams to facilitate better learning. The notes are structured in a way that makes it easy to navigate through different sections and find relevant information quickly.
 
-## Contents
+## Check out the [DSA Notes](https://github.com/BenGJ10/LeetCode-250-Explanations)
+
+If you want detailed explanations of 250+ LeetCode problems, check out the **[LeetCode 250 Notes](https://github.com/BenGJ10/LeetCode-250-Explanations)** repository. It contains a curated list of problems with solutions and explanations to help you prepare for coding interviews.
+
+---
+
+## Repository Contents
 
 ### [Sorting Algorithms](Sorting%20Algorithms/)
 
@@ -76,7 +82,13 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 - [Properties of **Binary Trees**](Trees/Properties%20of%20Binary%20Trees.md)
 
+- [**Tree Traversals** (Recursive and Iterative)](Trees/Tree%20Traversals%20(Recursive%20and%20Iterative).md)
+
+- [**Binary Search Trees (BST)**](Trees/Binary%20Search%20Trees%20(BST).md)
+
 - [Solve problems on **Binary Trees**](Trees/Problems%20on%20Binary%20Trees.md)
+
+- [Tree **Views** and **Advanced Patterns**](Trees/Tree%20Views%20and%20Advanced%20Patterns.md)
 
 ---
 
@@ -137,4 +149,3 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [NeetCode DSA Patterns](https://neetcode.io/)
 
 ---
-
