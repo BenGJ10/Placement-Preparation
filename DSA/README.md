@@ -44,7 +44,7 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 
 ---
 
-### Searching Algorithms
+### [Searching Algorithms](Searching%20Algorithms/)
 
 - [**Binary Search**](Searching%20Algorithms/Binary%20Search.md)
 
@@ -57,6 +57,16 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [**Overview of Linked Lists**](Linked%20Lists/Overview%20of%20Linked%20Lists.md)
 
 - [**Linked Lists in C++**](Linked%20Lists/Linked%20Lists%20in%20CPP.md)
+
+---
+
+### [Recursion](Recursion/)
+
+- [**Introduction to Recursion**](Recursion/Introduction%20to%20Recursion.md)
+
+- [**Understand Backtracking**](Recursion/Understand%20Backtracking.md)
+
+- [**Recursion to Iteration**](Recursion/Recursion%20to%20Iteration.md)
 
 ---
 
@@ -101,6 +111,10 @@ Each topic is explained in detail with examples and diagrams to facilitate bette
 - [**Overview of 2D DP**](Dynamic%20Programming/Overview%20of%202D%20DP.md)
 
 - [**DP on Subsequences**](Dynamic%20Programming/DP%20on%20Subsequences.md)
+
+- [**DP on Strings**](Dynamic%20Programming/DP%20on%20Strings.md)
+
+- [**Partition DP**](Dynamic%20Programming/Partition%20DP.md)
 
 ---
 
